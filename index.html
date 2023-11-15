@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 15vh;
+            width: 10vh;
+        }
+
+        hr {
+            background-color: blueviolet;
+            height: 2px;
+        }
+
+        main li {
+            font-size: 20px;
+        }
+
+        h1 {
+            color: brown;
+            padding: 20px;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        main h2 {
+            background-color: antiquewhite;
+        }
+
+        li {
+            font-size: 1.2rem;
+            line-height: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 40px;
+        }
+        nav ul li a{
+            color: white;
+            /* text-decoration: none; */
+        }
+        nav ul li a:hover{
+            color:aquamarine;
+            font-size: 1.22rem;
+            /* text-decoration: none; */
+        }
+
+        .flexbox {
+            height: 80vh;
+            width: 100vb;
+            background-color: blueviolet;
+            display: inline-block;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            grid-gap: 10px 15px;
+        }
+
+        .button {
+            height: 50%;
+            width: 30%;
+            position: relative;
+            left: 5em;
+            margin: 20px;
+            background-color: rgb(94, 94, 245);
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .griditem {
+
+            padding: 30px;
+            margin: 20px;
+            border: 2px solid red;
+            background-color: blanchedalmond;
+            border-radius: 15px;
+            align-self: center;
+        }
+
+        .navbar {
+            display: flex;
+            height: 10vh;
+            background-color: blue;
+            color: antiquewhite;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .item {
+            color:darkgray;
+            align-items: center;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .foot {
+            display: flex;
+            padding: 40px;
+            width: vb;
+            gap: 120px;
+            color: rebeccapurple;
+            flex-wrap: wrap;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .base {
+            padding: 20px;
+            row-gap: 200px;
+        }
+
+        .form {
+            padding: 12px;
+            width: 30vb;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .compnav ul{
+            display: flex;
+            margin: 0 3rem;
+        }
+
+        .comp {
+            display: flex;
+            font-size: 30px;
+        }
+        .footter{
+            display: flex;
+            width: vb;
+            height: 18%;
+            background-color:darkslateblue;
+            justify-content: left;
+        }
+        .dev{
+            color: aliceblue;
+            font-size: 1.2rem;
+            margin: 20px;
+        }
+        .vault{
+            margin-left:60px;
+        }
+        .vault a{
+            color: cadetblue;
+        }
+        .vault a:hover{
+            font-size: 1.3rem;
+            color: aqua;
+        }
+        .nish{
+            color:aquamarine;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta discription="Clone" content="this is cloning of the vault of code website">
+    <title>Clone Project</title>
+    <link rel="icon" href="/cloneproject/favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="comp">Vault of Code</div>
+            <div class="compnav">
+                <ul>
+                    <li class="item"><a href="/">Home</a></li>
+                    <li class="item"><a href="/">Catelog</a></li>
+                    <li class="item"><a href="/">contact us</a></li>
+                    <li class="item"><a href="/">internship</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>internship</h1>
+        <div class="container">
+            <div class="griditem">
+                <ul>
+                    <h2>Web Development Internship Program</h2>
+                    <li>Duration: 1 month/2 months</li>
+                    <li>Location: Virtual</li>
+                    <li>Stipend: -</li>
+                    <li>Start date: 05/11/2023</li>
+                    <button class="button">View Details</utton>
+                </ul>
+            </div>
+            <div class="griditem">
+                <ul>
+                    <h2>App Development Internship Program</h2>
+                    <li>Duration: 1 month/2 months</li>
+                    <li>Location: Virtual</li>
+                    <li>Stipend: -</li>
+                    <li>Start date: 05/11/2023</li>
+                    <button class="button">View Details</button>
+                </ul>
+            </div>
+            <div class="griditem">
+                <ul>
+                    <h2>Python Programming Internship Program</h2>
+                    <li>Duration: 1 month/2 months</li>
+                    <li>Location: Virtual</li>
+                    <li>Stipend: -</li>
+                    <li>Start date: 05/11/2023</li>
+                    <button class="button">View Details</button>
+                </ul>
+            </div>
+            <div class="griditem">
+                <ul>
+                    <h2>Java Programming Internship Program</h2>
+                    <li>Duration: 1 month/2 months</li>
+                    <li>Location: Virtual</li>
+                    <li>Stipend: -</li>
+                    <li>Start date: 05/11/2023</li>
+                    <button class="button">View Details</button>
+                </ul>
+            </div>
+            <div class="griditem">
+                <ul>
+                    <h2>Canva Designing Internship Program</h2>
+                    <li>Duration: 1 month/2 months</li>
+                    <li>Location: Virtual</li>
+                    <li>Stipend: -</li>
+                    <li>Start date: 05/11/2023</li>
+                    <button class="button">View Details</button>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="foot">copywrite &#169; vaultofcode approved by
+            <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/PQ/PG/RM/111471935/msme-registration-service-500x500.jpg"
+                height="180px" width="150px" alt="msme">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hxQasTqjQTgBDcYrTmCbRRy6VhEZbgnDMcCs790f&s"
+                height="180px" width="150px" alt="national">
+            <h2>Contact Us</h2>
+            <h2>Polices</h2>
+        </nav>
+        <nav class="base">
+            <h3>Subscribe to our emails</h3>
+            <form><input class="form" type="text" placeholder="Email"></form>
+        </nav>
+        <nav class="footter">
+            <div class="dev">Cloned Website developed By:<span class="nish"> Nishanth</span> <span class="vault">Go to Original Website &rarr; <a href="https://vaultofcodes.com/pages/internships">vaultofcode</a></span></div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
